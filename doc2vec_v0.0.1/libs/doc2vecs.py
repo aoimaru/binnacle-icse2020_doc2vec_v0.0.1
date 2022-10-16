@@ -30,6 +30,6 @@ class D2V_V1(D2V):
     
     @staticmethod
     def _do(documents, model_path):
-        model = Doc2Vec(documents, vector_size=10, window=5, min_count=1, workers=4)
+        model = Doc2Vec(documents, vector_size=10, window=5, min_count=1, workers=4, dm=1)
         model.save(model_path)
 

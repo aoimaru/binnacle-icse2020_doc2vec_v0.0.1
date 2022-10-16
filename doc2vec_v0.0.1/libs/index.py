@@ -44,11 +44,7 @@ class Index(object):
             
     
     @staticmethod
-    def _get_file(file_name):
-        file_path = "{index_root_path}/{file_name}".format(
-            index_root_path=INDEX_ROOT_PATH,
-            file_name=file_name
-        )
+    def _get_file(file_path):
         with open(file_path, mode="r") as f:
             data = json.load(f)
         return data
