@@ -161,3 +161,10 @@ cython_debug/
 
 # patch
 data/gold/*.json
+data/github/*.json
+
+index/github.json
+index/gold/*.json
+index/github/*.json
+
+model/*
