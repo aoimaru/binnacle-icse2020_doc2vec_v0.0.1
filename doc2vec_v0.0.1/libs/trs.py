@@ -54,10 +54,8 @@ class TR_V1(TR):
 
     @staticmethod
     def _get_trace_training_data(file_paths):
-        trace_training_data = dict()
+        training_data = dict()
         for file_path in file_paths:
-            base_name = os.path.basename(file_path); base_name = base_name.replace(".json", "")
-            training_data = dict()
             sequence_dict = RUNContent._get_trace_sequence(file_path)
             for sequence_key, sequence_values in sequence_dict.items():
                 sequences = CleanRUN._Disassembly(sequence_values)
@@ -67,6 +65,5 @@ class TR_V1(TR):
                         dst_sequence.extend(seq)
                     sequence_id = "{}:{}".format(sequence_key, seq_id)
                     training_data[sequence_id] = dst_sequence
-            trace_training_data[base_name] = training_data
-        return trace_training_data
+        return training_data
     

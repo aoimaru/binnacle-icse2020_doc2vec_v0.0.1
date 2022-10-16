@@ -136,10 +136,10 @@ def main(args):
     
     # create_trace_model(args[OPTION_01])
 
-    # trace_model_path="{model_root_path}/{model_name}".format(
-    #     model_root_path=MODEL_ROOT_PATH,
-    #     model_name="trace-{}.model".format(args[OPTION_01])
-    # )
+    trace_model_path="{model_root_path}/{model_name}".format(
+        model_root_path=MODEL_ROOT_PATH,
+        model_name="trace-{}.model".format(args[OPTION_01])
+    )
 
 
     # compare_v1(
@@ -163,8 +163,8 @@ def main(args):
     # )
 
 
-    # check_model(model_path, args[OPTION_01], "f39b64a71b6a95e1347fa05cbec2e56e6073cdeb:3:0")
-    check_model(trace_model_path, args[OPTION_01], "ca4acdafd2a1886c6fe0440e939eded376856338:2:0")
+    check_model(model_path, args[OPTION_01], "a62087e4b0d69dd5fe7e9a825f2c66e555d882d3:3:1")
+    # check_model(trace_model_path, args[OPTION_01], "ca4acdafd2a1886c6fe0440e939eded376856338:2:0")
 
 
 
