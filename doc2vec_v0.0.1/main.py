@@ -164,12 +164,18 @@ def main(args):
     # )
 
 
-    # check_model(trace_model_path, args[OPTION_01], "a62087e4b0d69dd5fe7e9a825f2c66e555d882d3:3:1")
-    # check_model(trace_model_path, args[OPTION_01], "ca4acdafd2a1886c6fe0440e939eded376856338:2:0")
-    # check_model(trace_model_path, args[OPTION_01], "d81fcee655ef5116135f0e27bc8adaaa1f51e8a4:2:1")
-
-
-    check_model(trace_model_path, args[OPTION_01], "afterthedeadline:4:0")
+    check_model(trace_model_path, args[OPTION_01], "a62087e4b0d69dd5fe7e9a825f2c66e555d882d3:3:1")
+    print()
+    check_model(trace_model_path, args[OPTION_01], "ca4acdafd2a1886c6fe0440e939eded376856338:2:0")
+    print()
+    check_model(trace_model_path, args[OPTION_01], "d81fcee655ef5116135f0e27bc8adaaa1f51e8a4:2:1")
+    print()
+    check_model(trace_model_path, args[OPTION_01], "1d8c362e7043d7b78836f06256d0ae9b82561af8:6:2")
+    print()
+    check_model(trace_model_path, args[OPTION_01], "7f16f600731d99679160e3c62322a49134218feb:6:2")
+    # check_model(trace_model_path, args[OPTION_01], "afterthedeadline:4:0")
+    # print()
+    # check_model(trace_model_path, args[OPTION_01], "install:4:1")
 
 
 
