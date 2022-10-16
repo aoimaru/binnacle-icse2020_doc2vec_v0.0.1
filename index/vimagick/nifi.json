@@ -1,0 +1,68 @@
+{
+    "nifi:6:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "nifi:6:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BASH",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ],
+    "nifi:6:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "nifi:6:3": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "nifi:6:4": [
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ],
+    "nifi:6:5": [
+        "SC-ADD-USER",
+        "SC-ADD-USER-SHELL",
+        "ABS-PATH-ABSOLUTE",
+        "SC-ADD-USER",
+        "SC-ADD-USER-SHELL",
+        "ABS-MAYBE-PATH",
+        "SC-ADD-USER",
+        "SC-ADD-USER-GROUPS",
+        "SC-ADD-USER-GROUP",
+        "SC-ADD-USER",
+        "SC-ADD-USER-UID",
+        "SC-ADD-USER",
+        "SC-ADD-USER-F-DEFAULTS",
+        "SC-ADD-USER",
+        "SC-ADD-USER-H"
+    ],
+    "nifi:6:6": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH"
+    ]
+}

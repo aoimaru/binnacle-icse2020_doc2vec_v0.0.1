@@ -1,0 +1,23 @@
+{
+    "icecast:1:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "icecast:1:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:ICECAST"
+    ],
+    "icecast:1:2": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "ABS-MAYBE-PATH"
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "nomad:3:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "nomad:3:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:APT-TRANSPORT-HTTPS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL"
+    ],
+    "nomad:3:2": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-VAR",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-APT-LISTS",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-GLOB-STAR"
+    ],
+    "nomad:3:3": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "nomad:4:0": [
+        "SC-CURL",
+        "SC-CURL-F-SILENT",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "nomad:5:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "nomad:5:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:GCC",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:GIT",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:MAKE",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:NODEJS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:PKGCONF",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:PYTHON",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:YARN",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:ZIP"
+    ],
+    "nomad:10:0": [
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "nomad:10:1": [
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG",
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG"
+    ]
+}

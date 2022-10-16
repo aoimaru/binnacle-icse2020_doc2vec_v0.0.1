@@ -1,0 +1,18 @@
+{
+    "luigi:6:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "luigi:6:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON3"
+    ],
+    "luigi:6:2": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ]
+}

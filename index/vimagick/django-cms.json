@@ -1,0 +1,21 @@
+{
+    "django-cms:2:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "django-cms:2:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PY-PILLOW",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TZDATA"
+    ],
+    "django-cms:2:2": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ]
+}

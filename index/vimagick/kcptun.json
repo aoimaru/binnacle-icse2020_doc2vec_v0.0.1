@@ -1,0 +1,29 @@
+{
+    "kcptun:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "kcptun:4:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL"
+    ],
+    "kcptun:4:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "kcptun:4:3": [
+        "SC-TAR",
+        "SC-TAR-DIRECTORY",
+        "ABS-MAYBE-PATH",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "influxdb:6:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "influxdb:6:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ],
+    "influxdb:6:2": [
+        "SC-WGET",
+        "SC-WGET-URL"
+    ],
+    "influxdb:6:3": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-SINGLE-SPACE"
+    ],
+    "influxdb:6:4": [
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-TRUE",
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-PATH-ABSOLUTE",
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-MAYBE-PATH",
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-FALSE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "influxdb:6:5": [
+        "SC-WGET",
+        "SC-WGET-OUTPUT-DOCUMENT",
+        "ABS-MAYBE-PATH",
+        "SC-WGET",
+        "SC-WGET-URL"
+    ],
+    "influxdb:6:6": [
+        "SC-APT-GET-PURGE",
+        "SC-APT-GET-F-YES",
+        "SC-APT-GET-PURGE",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ]
+}

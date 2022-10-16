@@ -68,7 +68,7 @@ def check_model_v2(model_path, file_id):
 def create_index(target):
     file_paths = JsonFile._get_file_path(target=target)
     training_data =  TR_V1._get_training_data_v2(file_paths)
-    Index._create(training_data, "{}.json".format(target))
+    Index._create_v2(training_data, "{}".format(target))
 
 
 def compare_v1(model_path, target, file_id_01, file_id_02):
@@ -169,7 +169,7 @@ def main(args):
     # check_model(trace_model_path, args[OPTION_01], "d81fcee655ef5116135f0e27bc8adaaa1f51e8a4:2:1")
 
 
-    # check_model(trace_model_path, args[OPTION_01], "afterthedeadline:4:0")
+    check_model(trace_model_path, args[OPTION_01], "afterthedeadline:4:0")
 
 
 

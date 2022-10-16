@@ -1,0 +1,12 @@
+{
+    "zsh:2:0": [
+        "SC-APK-ADD",
+        "SC-APK-F-NO-CACHE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:SHADOW",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:ZSH"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "piknik:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "piknik:4:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:LIBC6-COMPAT",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ],
+    "piknik:4:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "piknik:4:3": [
+        "SC-TAR",
+        "SC-TAR-DIRECTORY",
+        "ABS-MAYBE-PATH",
+        "SC-TAR",
+        "SC-TAR-STRIP",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "piknik:4:4": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "piknik:4:5": [
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-MAYBE-PATH",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-MAYBE-PATH"
+    ]
+}

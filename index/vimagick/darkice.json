@@ -1,0 +1,13 @@
+{
+    "darkice:1:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "darkice:1:1": [
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:DARKICE"
+    ]
+}

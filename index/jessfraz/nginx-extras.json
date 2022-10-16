@@ -1,0 +1,21 @@
+{
+    "nginx-extras:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "nginx-extras:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LUA-CJSON",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LUA-ICONV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:NGINX-EXTRAS"
+    ]
+}

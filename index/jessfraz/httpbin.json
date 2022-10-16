@@ -1,0 +1,25 @@
+{
+    "httpbin:1:0": [
+        "SC-APK-ADD",
+        "SC-APK-F-NO-CACHE",
+        "SC-APK-ADD",
+        "SC-APK-VIRTUAL:.build-deps",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:LIBFFI-DEV"
+    ],
+    "httpbin:1:1": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET",
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET",
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ]
+}

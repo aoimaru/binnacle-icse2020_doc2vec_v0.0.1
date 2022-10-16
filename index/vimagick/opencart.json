@@ -1,0 +1,86 @@
+{
+    "opencart:2:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "opencart:2:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBPNG-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBJPEG-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBMCRYPT-DEV"
+    ],
+    "opencart:2:2": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-VAR",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-APT-LISTS",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-GLOB-STAR"
+    ],
+    "opencart:8:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "opencart:8:1": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-OUTPUT",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "opencart:8:2": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-SINGLE-SPACE"
+    ],
+    "opencart:8:3": [
+        "SC-TAR",
+        "SC-TAR-WILDCARDS",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "opencart:8:4": [
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH"
+    ]
+}

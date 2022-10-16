@@ -1,0 +1,86 @@
+{
+    "powershell:2:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "powershell:2:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:DPKG",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBCURL3",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBICU57",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBSSL1.0.2",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBLTTNG-UST0",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBUNWIND8",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ],
+    "powershell:3:0": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-USR-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "powershell:3:1": [
+        "SC-WGET",
+        "SC-WGET-OUTPUT-DOCUMENT",
+        "ABS-MAYBE-PATH",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "powershell:3:2": [
+        "SC-DPKG",
+        "SC-DPKG-INSTALLS",
+        "SC-DPKG-INSTALL",
+        "ABS-MAYBE-PATH"
+    ],
+    "powershell:3:3": [
+        "SC-LN",
+        "SC-LN-F-NO-DEREFERENCE",
+        "SC-LN",
+        "SC-LN-F-FORCE",
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-MAYBE-PATH",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-MAYBE-PATH"
+    ],
+    "powershell:3:4": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-YES"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "skype:2:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "skype:3:0": [
+        "SC-CURL",
+        "SC-CURL-F-SILENT",
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "skype:4:0": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-PROBABLY-URL",
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-SINGLE-SPACE"
+    ],
+    "skype:5:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "skype:5:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SKYPEFORLINUX"
+    ],
+    "skype:8:0": [
+        "SC-USER-ADD",
+        "SC-USER-ADD-F-CREATE-HOME",
+        "SC-USER-ADD",
+        "SC-USER-ADD-HOME-DIR",
+        "SC-USER-ADD",
+        "SC-USER-ADD-LOGIN"
+    ]
+}

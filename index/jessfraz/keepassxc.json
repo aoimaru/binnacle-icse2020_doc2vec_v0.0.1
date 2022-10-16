@@ -1,0 +1,79 @@
+{
+    "keepassxc:2:0": [
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "keepassxc:2:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILDDEPS"
+    ],
+    "keepassxc:2:2": [
+        "SC-GIT-CLONE",
+        "SC-GIT-BRANCH",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-PATH-ABSOLUTE",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-USR-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-PATH"
+    ],
+    "keepassxc:2:3": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-USR-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "keepassxc:2:4": [
+        "SC-CMAKE",
+        "SC-CMAKE-DS",
+        "SC-CMAKE-D",
+        "SC-CMAKE",
+        "SC-CMAKE-DS",
+        "SC-CMAKE-D",
+        "SC-CMAKE",
+        "SC-CMAKE-PATHTOSOURCEORBUILD",
+        "ABS-MAYBE-PATH"
+    ],
+    "keepassxc:2:5": [
+        "SC-MAKE",
+        "SC-MAKE-TARGET"
+    ],
+    "keepassxc:2:6": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-USR-SRC-DIR",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-MAYBE-PATH"
+    ]
+}

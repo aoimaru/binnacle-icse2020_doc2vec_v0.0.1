@@ -1,0 +1,14 @@
+{
+    "dsniff:1:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "dsniff:1:1": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-PROBABLY-URL"
+    ]
+}

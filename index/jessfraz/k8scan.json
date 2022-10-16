@@ -1,0 +1,38 @@
+{
+    "k8scan:7:0": [
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "k8scan:7:1": [
+        "SC-GO-GET",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-MAYBE-PATH"
+    ],
+    "k8scan:7:2": [
+        "SC-GO-TEST",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-MAYBE-PATH"
+    ],
+    "k8scan:7:3": [
+        "SC-GO-BUILD",
+        "SC-GO-TAGS",
+        "SC-GO-BUILD",
+        "SC-GO-LDFLAGS",
+        "ABS-SINGLE-SPACE",
+        "SC-GO-BUILD",
+        "SC-GO-O",
+        "ABS-PATH-ABSOLUTE",
+        "SC-GO-BUILD",
+        "SC-GO-O",
+        "ABS-MAYBE-PATH",
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-GLOB-STAR",
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE"
+    ]
+}

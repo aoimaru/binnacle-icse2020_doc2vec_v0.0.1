@@ -1,0 +1,13 @@
+{
+    "wafw00f:1:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "wafw00f:1:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON3"
+    ]
+}

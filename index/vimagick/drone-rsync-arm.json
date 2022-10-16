@@ -1,0 +1,16 @@
+{
+    "drone-rsync-arm:2:0": [
+        "SC-CURL",
+        "SC-CURL-F-SILENT",
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS"
+    ]
+}

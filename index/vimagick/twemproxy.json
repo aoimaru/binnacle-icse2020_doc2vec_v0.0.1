@@ -1,0 +1,63 @@
+{
+    "twemproxy:5:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "twemproxy:5:1": [
+        "SC-APK-ADD",
+        "SC-APK-VIRTUAL:TMP",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:ALPINE-SDK",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:AUTOCONF",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:AUTOMAKE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:LIBTOOL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ],
+    "twemproxy:5:2": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH"
+    ],
+    "twemproxy:5:3": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "twemproxy:5:4": [
+        "SC-TAR",
+        "SC-TAR-DIRECTORY",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "twemproxy:5:5": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ]
+}

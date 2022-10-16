@@ -1,0 +1,41 @@
+{
+    "scudcloud:2:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "scudcloud:2:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:DBUS-X11",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:HUNSPELL-EN-US",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBNOTIFY-BIN",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:PYTHON3-DBUS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SOFTWARE-PROPERTIES-COMMON"
+    ],
+    "scudcloud:2:2": [
+        "SC-APT-ADD-REPOSITORY",
+        "SC-APT-ADD-REPOSITORY-REPOSITORY"
+    ],
+    "scudcloud:2:3": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SCUDCLOUD"
+    ],
+    "scudcloud:5:0": [
+        "SC-USER-ADD",
+        "SC-USER-ADD-F-CREATE-HOME",
+        "SC-USER-ADD",
+        "SC-USER-ADD-HOME-DIR",
+        "SC-USER-ADD",
+        "SC-USER-ADD-LOGIN"
+    ]
+}

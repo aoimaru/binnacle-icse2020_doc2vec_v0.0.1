@@ -1,0 +1,26 @@
+{
+    "grafana:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "grafana:4:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBFONTCONFIG",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ],
+    "grafana:4:2": [
+        "SC-APT-GET-PURGE",
+        "SC-APT-GET-F-YES",
+        "SC-APT-GET-PURGE",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ]
+}

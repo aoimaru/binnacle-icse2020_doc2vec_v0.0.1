@@ -1,0 +1,27 @@
+{
+    "aircast-arm:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "aircast-arm:4:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL"
+    ],
+    "aircast-arm:4:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-OUTPUT",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CURL",
+        "SC-CURL-OUTPUT",
+        "ABS-MAYBE-PATH",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "hollywood:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "hollywood:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SOFTWARE-PROPERTIES-COMMON"
+    ],
+    "hollywood:1:2": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:BYOBU",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:HOLLYWOOD",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LOCATE",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:MLOCATE"
+    ],
+    "hollywood:3:0": [
+        "SC-USER-ADD",
+        "SC-USER-ADD-F-CREATE-HOME",
+        "SC-USER-ADD",
+        "SC-USER-ADD-HOME-DIR",
+        "SC-USER-ADD",
+        "SC-USER-ADD-LOGIN"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "nerdy:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "nerdy:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:COWSAY",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:FIGLET",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:IMAGEMAGICK",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:JP2A",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:PYTHON"
+    ],
+    "nerdy:6:0": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-SINGLE-SPACE"
+    ],
+    "nerdy:7:0": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-SINGLE-SPACE"
+    ]
+}

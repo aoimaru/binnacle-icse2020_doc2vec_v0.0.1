@@ -1,0 +1,19 @@
+{
+    "fontforge:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "fontforge:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SOFTWARE-PROPERTIES-COMMON"
+    ],
+    "fontforge:1:2": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:FONTFORGE"
+    ]
+}

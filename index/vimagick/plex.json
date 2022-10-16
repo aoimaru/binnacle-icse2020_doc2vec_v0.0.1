@@ -1,0 +1,34 @@
+{
+    "plex:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "plex:4:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL"
+    ],
+    "plex:4:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-OUTPUT",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "plex:11:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "plex:11:1": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH"
+    ]
+}

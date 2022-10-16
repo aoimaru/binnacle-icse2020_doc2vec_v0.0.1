@@ -1,0 +1,13 @@
+{
+    "ansible:1:0": [
+        "ABS-TAB"
+    ],
+    "ansible:1:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CA-CERTIFICATES",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILDDEPS"
+    ]
+}

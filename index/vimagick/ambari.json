@@ -1,0 +1,102 @@
+{
+    "ambari:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "ambari:4:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:PYTHON",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:MAVEN",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:NODE",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:NPM",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ],
+    "ambari:4:2": [
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:YARN"
+    ],
+    "ambari:4:3": [
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-PATH-ABSOLUTE",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-MAYBE-PATH",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-EXTENSION-TAR"
+    ],
+    "ambari:4:4": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "ABS-EXTENSION-TAR"
+    ],
+    "ambari:4:5": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "SC-CD",
+        "SC-CD-PATH"
+    ],
+    "ambari:9:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "ambari:9:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:GNUPG",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBPOSTGRESQL-JDBC-JAVA",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:OPENJDK-8-JDK",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:OPENSSH-CLIENT"
+    ],
+    "ambari:9:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "ambari:9:3": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:AMBARI-SERVER"
+    ]
+}

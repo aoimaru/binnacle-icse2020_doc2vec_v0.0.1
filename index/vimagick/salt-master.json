@@ -1,0 +1,57 @@
+{
+    "salt-master:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "salt-master:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:JQ",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:VIM-TINY"
+    ],
+    "salt-master:1:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS"
+    ],
+    "salt-master:1:3": [
+        "SC-BASH",
+        "SC-BASH-SCRIPT"
+    ],
+    "salt-master:1:4": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SALT-SSH"
+    ],
+    "salt-master:1:5": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS"
+    ],
+    "salt-master:1:6": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET",
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "jamapi:2:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "jamapi:2:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CA-CERTIFICATES",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:NODEJS",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:NODEJS-NPM",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ],
+    "jamapi:2:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-EXTENSION-TAR"
+    ],
+    "jamapi:2:3": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "jamapi:2:4": [
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ]
+}

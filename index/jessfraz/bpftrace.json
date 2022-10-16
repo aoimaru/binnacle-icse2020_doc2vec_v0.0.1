@@ -1,0 +1,74 @@
+{
+    "bpftrace:3:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "bpftrace:3:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CLANG",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:GCC",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:GIT",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE"
+    ],
+    "bpftrace:5:0": [
+        "SC-GIT-CLONE",
+        "SC-GIT-DEPTH",
+        "SC-GIT-CLONE",
+        "SC-GIT-BRANCH",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-PATH-ABSOLUTE",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-USR-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-PATH"
+    ],
+    "bpftrace:5:1": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-USR-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "bpftrace:5:2": [
+        "SC-CMAKE",
+        "SC-CMAKE-DS",
+        "SC-CMAKE-D",
+        "SC-CMAKE",
+        "SC-CMAKE-PATHTOSOURCEORBUILD",
+        "ABS-MAYBE-PATH"
+    ],
+    "bpftrace:5:3": [
+        "SC-MAKE",
+        "SC-MAKE-TARGET"
+    ]
+}

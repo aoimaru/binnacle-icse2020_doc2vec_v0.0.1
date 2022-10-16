@@ -1,0 +1,61 @@
+{
+    "chinadns:5:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "chinadns:5:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:BUILD-ESSENTIAL",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:DNSMASQ",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SUPERVISOR"
+    ],
+    "chinadns:5:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-OUTPUT",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "chinadns:5:3": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "chinadns:5:4": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ],
+    "chinadns:5:5": [
+        "SC-APT-GET-REMOVE",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:BUILD-ESSENTIAL"
+    ],
+    "chinadns:6:0": [
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTP",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "chinadns:6:1": [
+        "SC-GREP",
+        "SC-GREP-PATTERN"
+    ]
+}

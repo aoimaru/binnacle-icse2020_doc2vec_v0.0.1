@@ -1,0 +1,30 @@
+{
+    "live555:1:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "live555:1:1": [
+        "SC-YUM-INSTALL",
+        "SC-YUM-PACKAGES",
+        "SC-YUM-PACKAGE:COMPAT-OPENSSL10",
+        "SC-YUM-INSTALL",
+        "SC-YUM-PACKAGES",
+        "SC-YUM-PACKAGE:WGET"
+    ],
+    "live555:1:2": [
+        "SC-WGET",
+        "SC-WGET-P",
+        "ABS-PATH-ABSOLUTE",
+        "SC-WGET",
+        "SC-WGET-P",
+        "ABS-MAYBE-PATH",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-URL-PROTOCOL-HTTP",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-PROBABLY-URL"
+    ]
+}

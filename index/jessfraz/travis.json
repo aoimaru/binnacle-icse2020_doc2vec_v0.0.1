@@ -1,0 +1,18 @@
+{
+    "travis:2:0": [
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "travis:2:1": [
+        "SC-APK-ADD",
+        "SC-APK-VIRTUAL:.build-deps",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE"
+    ],
+    "travis:2:2": [
+        "SC-GEM-INSTALL",
+        "SC-GEM-GEMS",
+        "SC-GEM-GEM"
+    ]
+}

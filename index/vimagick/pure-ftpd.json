@@ -1,0 +1,37 @@
+{
+    "pure-ftpd:1:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "pure-ftpd:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:PURE-FTPD"
+    ],
+    "pure-ftpd:1:2": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-VAR",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-APT-LISTS",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-GLOB-STAR"
+    ]
+}

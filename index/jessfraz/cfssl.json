@@ -1,0 +1,53 @@
+{
+    "cfssl:6:0": [
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "cfssl:6:1": [
+        "SC-GO-GET",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-PROBABLY-URL"
+    ],
+    "cfssl:6:2": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-PROBABLY-URL"
+    ],
+    "cfssl:6:3": [
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-MAYBE-PATH",
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-PATH-RELATIVE",
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-MAYBE-PATH",
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-PATH-RELATIVE",
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-MAYBE-PATH",
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-PATH-RELATIVE",
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-MAYBE-PATH"
+    ]
+}

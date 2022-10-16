@@ -1,0 +1,40 @@
+{
+    "guetzli:4:0": [
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "guetzli:4:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILDDEPS"
+    ],
+    "guetzli:4:2": [
+        "SC-GIT-CLONE",
+        "SC-GIT-BRANCH",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY"
+    ],
+    "guetzli:4:3": [
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "guetzli:4:4": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "protocol:1:0": [
+        "ABS-DOUBLE-SPACE"
+    ],
+    "protocol:1:1": [
+        "SC-APK-ADD",
+        "SC-APK-F-UPDATE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON3",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILDDEPS"
+    ],
+    "protocol:1:2": [
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "protocol:1:3": [
+        "SC-PYTHON",
+        "SC-PYTHON-ARGS",
+        "SC-PYTHON-ARG"
+    ]
+}

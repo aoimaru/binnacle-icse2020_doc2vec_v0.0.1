@@ -1,0 +1,93 @@
+{
+    "elasticsearch:6:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "elasticsearch:6:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CA-CERTIFICATES",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BASH",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:OPENJDK8-JRE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ],
+    "elasticsearch:6:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "elasticsearch:6:3": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "elasticsearch:6:4": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "elasticsearch:6:5": [
+        "SC-CHMOD",
+        "SC-CHMOD-MODE",
+        "SC-CHMOD",
+        "SC-CHMOD-PATHS",
+        "SC-CHMOD-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CHMOD",
+        "SC-CHMOD-PATHS",
+        "SC-CHMOD-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "elasticsearch:7:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "elasticsearch:7:1": [
+        "SC-ADD-USER",
+        "SC-ADD-USER-H",
+        "SC-ADD-USER",
+        "SC-ADD-USER-H",
+        "ABS-PATH-ABSOLUTE",
+        "SC-ADD-USER",
+        "SC-ADD-USER-H",
+        "ABS-MAYBE-PATH",
+        "SC-ADD-USER",
+        "SC-ADD-USER-UID",
+        "SC-ADD-USER",
+        "SC-ADD-USER-GROUPS",
+        "SC-ADD-USER-GROUP",
+        "SC-ADD-USER",
+        "SC-ADD-USER-GROUPS",
+        "SC-ADD-USER-GROUP"
+    ],
+    "elasticsearch:7:2": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH"
+    ]
+}

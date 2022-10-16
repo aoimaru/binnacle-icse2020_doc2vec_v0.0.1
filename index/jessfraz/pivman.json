@@ -1,0 +1,20 @@
+{
+    "pivman:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "pivman:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SOFTWARE-PROPERTIES-COMMON"
+    ],
+    "pivman:1:2": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:USBUTILS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:YUBIKEY-PIV-MANAGER"
+    ]
+}

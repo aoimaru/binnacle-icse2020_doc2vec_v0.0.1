@@ -1,0 +1,12 @@
+{
+    "tor-router:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "tor-router:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:TOR"
+    ]
+}

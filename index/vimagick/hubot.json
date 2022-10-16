@@ -1,0 +1,65 @@
+{
+    "hubot:5:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "hubot:5:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BASH",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CA-CERTIFICATES",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:NODEJS",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:NPM",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON3"
+    ],
+    "hubot:5:2": [
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:YO",
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:GENERATOR-HUBOT"
+    ],
+    "hubot:8:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "hubot:8:1": [
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE",
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:HTMLPARSER",
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:MOMENT",
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:QUERYSTRING",
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:SOUPSELECT",
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:UNDERSCORE",
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:UNDERSCORE.STRING",
+        "SC-NPM-INSTALL",
+        "SC-NPM-PACKAGES",
+        "SC-NPM-PACKAGE:URL"
+    ]
+}

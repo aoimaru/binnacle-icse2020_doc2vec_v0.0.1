@@ -1,0 +1,83 @@
+{
+    "3.6:4:0": [
+        "ABS-TAB"
+    ],
+    "3.6:4:1": [
+        "SC-APK-ADD",
+        "SC-APK-VIRTUAL:build-deps",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILDDEPS"
+    ],
+    "3.6:4:2": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "3.6:4:3": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-EXTENSION-TAR",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTP",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "3.6:4:4": [
+        "SC-TAR",
+        "SC-TAR-Z",
+        "SC-TAR",
+        "SC-TAR-FILE",
+        "SC-TAR",
+        "SC-TAR-DIRECTORY",
+        "ABS-PATH-ABSOLUTE",
+        "SC-TAR",
+        "SC-TAR-DIRECTORY",
+        "ABS-MAYBE-PATH"
+    ],
+    "3.6:4:5": [
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "3.6:4:6": [
+        "SC-CP",
+        "SC-CP-PATHS",
+        "SC-CP-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-CP",
+        "SC-CP-PATHS",
+        "SC-CP-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CP",
+        "SC-CP-PATHS",
+        "SC-CP-PATH",
+        "ABS-MAYBE-PATH"
+    ]
+}

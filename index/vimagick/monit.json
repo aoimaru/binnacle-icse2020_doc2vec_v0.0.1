@@ -1,0 +1,34 @@
+{
+    "monit:3:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "monit:3:1": [
+        "SC-CHMOD",
+        "SC-CHMOD-PATHS",
+        "SC-CHMOD-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CHMOD",
+        "SC-CHMOD-PATHS",
+        "SC-CHMOD-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "monit:3:2": [
+        "SC-LN",
+        "SC-LN-F-FORCE",
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-MAYBE-PATH",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-MAYBE-PATH"
+    ]
+}

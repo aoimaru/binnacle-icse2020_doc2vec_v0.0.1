@@ -1,0 +1,102 @@
+{
+    "taskd:2:0": [
+        "SC-APK-ADD",
+        "SC-APK-F-UPDATE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CMAKE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GNUTLS",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GNUTLS-DEV",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GNUTLS-UTILS",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE"
+    ],
+    "taskd:2:1": [
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-URL-PROTOCOL-HTTP",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-EXTENSION-TAR",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "taskd:2:2": [
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-PREFIX",
+        "ABS-MAYBE-PATH"
+    ],
+    "taskd:2:3": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ],
+    "taskd:2:4": [
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-URL-PROTOCOL-HTTP",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-EXTENSION-TAR",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "taskd:2:5": [
+        "SC-CMAKE",
+        "SC-CMAKE-DS",
+        "SC-CMAKE-D",
+        "SC-CMAKE",
+        "SC-CMAKE-PATHTOSOURCEORBUILD",
+        "ABS-MAYBE-PATH"
+    ],
+    "taskd:2:6": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH"
+    ],
+    "taskd:2:7": [
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH",
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH"
+    ],
+    "taskd:2:8": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-PATH-RELATIVE"
+    ],
+    "taskd:2:9": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ],
+    "taskd:2:10": [
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CMAKE",
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GNUTLS-DEV"
+    ]
+}

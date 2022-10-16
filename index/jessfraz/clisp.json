@@ -1,0 +1,26 @@
+{
+    "clisp:4:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "clisp:4:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CLISP",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ],
+    "clisp:9:0": [
+        "SC-USER-ADD",
+        "SC-USER-ADD-F-CREATE-HOME",
+        "SC-USER-ADD",
+        "SC-USER-ADD-HOME-DIR",
+        "SC-USER-ADD",
+        "SC-USER-ADD-LOGIN"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "youtube-worker:1:0": [
+        "SC-APK-ADD",
+        "SC-APK-F-UPDATE-CACHE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CA-CERTIFICATES",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PY-PIP"
+    ],
+    "youtube-worker:1:1": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-VAR",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-GLOB-STAR"
+    ]
+}

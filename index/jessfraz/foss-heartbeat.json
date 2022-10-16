@@ -1,0 +1,83 @@
+{
+    "foss-heartbeat:2:0": [
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "foss-heartbeat:2:1": [
+        "SC-APK-ADD",
+        "SC-APK-VIRTUAL:.build-deps",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GIT",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:LAPACK-DEV",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:LIBFFI-DEV",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:OPENSSL-DEV"
+    ],
+    "foss-heartbeat:2:2": [
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-MAYBE-PATH",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-MAYBE-PATH"
+    ],
+    "foss-heartbeat:2:3": [
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-PATH-ABSOLUTE",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-USR-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-PATH"
+    ],
+    "foss-heartbeat:2:4": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-USR-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "foss-heartbeat:2:5": [
+        "SC-GREP",
+        "SC-GREP-PATTERN",
+        "SC-GREP",
+        "SC-GREP-F-INVERT-MATCH",
+        "SC-GREP",
+        "SC-GREP-PATTERN"
+    ],
+    "foss-heartbeat:2:6": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ]
+}

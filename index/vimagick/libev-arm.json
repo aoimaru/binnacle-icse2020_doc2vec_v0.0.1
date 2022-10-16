@@ -1,0 +1,33 @@
+{
+    "libev-arm:5:0": [
+        "SC-SET",
+        "SC-SET-F-E",
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "libev-arm:5:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:SS_DEP"
+    ],
+    "libev-arm:5:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "libev-arm:5:3": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ],
+    "libev-arm:5:4": [
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:SS_DEP"
+    ]
+}

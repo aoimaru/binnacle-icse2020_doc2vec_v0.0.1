@@ -1,0 +1,25 @@
+{
+    "golinks:4:0": [
+        "SC-GO-GET",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-PROBABLY-URL"
+    ],
+    "golinks:4:1": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-PROBABLY-URL"
+    ],
+    "golinks:4:2": [
+        "SC-GO-BUILD",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-MAYBE-PATH"
+    ]
+}

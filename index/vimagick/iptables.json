@@ -1,0 +1,9 @@
+{
+    "iptables:1:0": [
+        "SC-APK-ADD",
+        "SC-APK-F-UPDATE-CACHE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:IPROUTE2"
+    ]
+}

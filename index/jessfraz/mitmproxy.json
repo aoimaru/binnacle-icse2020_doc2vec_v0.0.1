@@ -1,0 +1,54 @@
+{
+    "mitmproxy:2:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "mitmproxy:2:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL"
+    ],
+    "mitmproxy:3:0": [
+        "SC-GROUP-ADD",
+        "SC-GROUP-ADD-F-SYSTEM",
+        "SC-GROUP-ADD",
+        "SC-GROUP-ADD-GROUP"
+    ],
+    "mitmproxy:3:1": [
+        "SC-USER-ADD",
+        "SC-USER-ADD-GID",
+        "SC-USER-ADD",
+        "SC-USER-ADD-LOGIN"
+    ],
+    "mitmproxy:3:2": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "mitmproxy:5:0": [
+        "SC-CURL",
+        "SC-CURL-F-SILENT",
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-EXTENSION-TAR",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL"
+    ]
+}

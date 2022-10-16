@@ -1,0 +1,42 @@
+{
+    "shadowsocks:1:0": [
+        "SC-SET",
+        "SC-SET-F-E",
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "shadowsocks:1:1": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-PROBABLY-URL"
+    ],
+    "shadowsocks:1:2": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:LIBSODIUM",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON"
+    ],
+    "shadowsocks:1:3": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTPS"
+    ],
+    "shadowsocks:1:4": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ]
+}

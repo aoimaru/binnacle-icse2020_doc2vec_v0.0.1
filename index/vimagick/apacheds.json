@@ -1,0 +1,78 @@
+{
+    "apacheds:11:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "apacheds:11:1": [
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:APT-UTILS",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:CURL",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:LDAP-UTILS",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:OPENJDK-11-JRE-HEADLESS",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:PROCPS"
+    ],
+    "apacheds:11:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "apacheds:11:3": [
+        "SC-CHMOD",
+        "SC-CHMOD-MODE",
+        "SC-CHMOD",
+        "SC-CHMOD-PATHS",
+        "SC-CHMOD-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CHMOD",
+        "SC-CHMOD-PATHS",
+        "SC-CHMOD-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "apacheds:11:4": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "apacheds:11:5": [
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-PATH-ABSOLUTE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "ABS-MAYBE-PATH"
+    ]
+}

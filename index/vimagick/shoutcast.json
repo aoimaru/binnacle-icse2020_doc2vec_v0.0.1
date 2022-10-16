@@ -1,0 +1,36 @@
+{
+    "shoutcast:2:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "shoutcast:2:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL"
+    ],
+    "shoutcast:2:2": [
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-EXTENSION-TAR",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "shoutcast:2:3": [
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH",
+        "SC-MKDIR",
+        "SC-MKDIR-PATHS",
+        "SC-MKDIR-PATH"
+    ],
+    "shoutcast:2:4": [
+        "SC-APT-GET-PURGE",
+        "SC-APT-GET-F-YES",
+        "SC-APT-GET-PURGE",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL"
+    ]
+}

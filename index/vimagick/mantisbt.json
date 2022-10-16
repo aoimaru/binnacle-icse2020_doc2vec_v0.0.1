@@ -1,0 +1,94 @@
+{
+    "mantisbt:2:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "mantisbt:2:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBFREETYPE6-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBPNG-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBJPEG-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBPQ-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBXML2-DEV"
+    ],
+    "mantisbt:2:2": [
+        "SC-DPHP-EXT-INSTALL",
+        "SC-DPHP-EXT-INSTALL-PACKAGES",
+        "SC-DPHP-EXT-INSTALL-PACKAGE",
+        "SC-DPHP-EXT-INSTALL",
+        "SC-DPHP-EXT-INSTALL-PACKAGES",
+        "SC-DPHP-EXT-INSTALL-PACKAGE",
+        "SC-DPHP-EXT-INSTALL",
+        "SC-DPHP-EXT-INSTALL-PACKAGES",
+        "SC-DPHP-EXT-INSTALL-PACKAGE",
+        "SC-DPHP-EXT-INSTALL",
+        "SC-DPHP-EXT-INSTALL-PACKAGES",
+        "SC-DPHP-EXT-INSTALL-PACKAGE",
+        "SC-DPHP-EXT-INSTALL",
+        "SC-DPHP-EXT-INSTALL-PACKAGES",
+        "SC-DPHP-EXT-INSTALL-PACKAGE"
+    ],
+    "mantisbt:7:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "mantisbt:7:1": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-OUTPUT",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "mantisbt:7:2": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-SINGLE-SPACE"
+    ],
+    "mantisbt:7:3": [
+        "SC-TAR",
+        "SC-TAR-Z",
+        "SC-TAR",
+        "SC-TAR-STRIP-COMPONENTS",
+        "SC-TAR",
+        "SC-TAR-FILE"
+    ],
+    "mantisbt:8:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "mantisbt:8:1": [
+        "SC-LN",
+        "SC-LN-F-FORCE",
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-TARGET",
+        "ABS-MAYBE-PATH",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-PATH-ABSOLUTE",
+        "SC-LN",
+        "SC-LN-LINK",
+        "ABS-MAYBE-PATH"
+    ]
+}

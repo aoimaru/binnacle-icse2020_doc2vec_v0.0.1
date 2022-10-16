@@ -1,0 +1,51 @@
+{
+    "kernel-builder:1:0": [
+        "SC-APT-UPDATE"
+    ],
+    "kernel-builder:1:1": [
+        "SC-APT-INSTALL",
+        "SC-APT-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:BASH",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:BC",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:BISON",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:CURL",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:FAKEROOT",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:FLEX",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:GIT",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:LIBGMP-DEV",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:LIBNCURSES-DEV",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:PERL",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:TAR"
+    ],
+    "kernel-builder:6:0": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-SINGLE-SPACE"
+    ]
+}

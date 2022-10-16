@@ -1,0 +1,26 @@
+{
+    "gcalcli:2:0": [
+        "SC-APK-ADD",
+        "SC-APK-F-NO-CACHE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON3",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON3-DEV",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE"
+    ],
+    "gcalcli:2:1": [
+        "SC-ADD-USER",
+        "SC-ADD-USER-USER"
+    ],
+    "gcalcli:2:2": [
+        "SC-CHOWN",
+        "SC-CHOWN-OWNER",
+        "SC-CHOWN",
+        "SC-CHOWN-PATHS",
+        "SC-CHOWN-PATH"
+    ]
+}

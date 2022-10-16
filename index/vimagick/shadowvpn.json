@@ -1,0 +1,53 @@
+{
+    "shadowvpn:1:0": [
+        "SC-APK-ADD",
+        "SC-APK-F-UPDATE-CACHE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:AUTOCONF",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:AUTOMAKE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GAWK",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GIT",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:IPTABLES",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:LIBTOOL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:LINUX-HEADERS"
+    ],
+    "shadowvpn:1:1": [
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-URL-PROTOCOL-HTTPS"
+    ],
+    "shadowvpn:1:2": [
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-SYSCONFDIR",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-SYSCONFDIR",
+        "ABS-MAYBE-PATH"
+    ],
+    "shadowvpn:1:3": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ]
+}

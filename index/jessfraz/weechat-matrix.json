@@ -1,0 +1,27 @@
+{
+    "weechat-matrix:3:0": [
+        "SC-ADD-USER",
+        "SC-ADD-USER-F-SYSTEM",
+        "SC-ADD-USER",
+        "SC-ADD-USER-H",
+        "SC-ADD-USER",
+        "SC-ADD-USER-USER"
+    ],
+    "weechat-matrix:3:1": [
+        "SC-CHOWN",
+        "SC-CHOWN-OWNER",
+        "SC-CHOWN",
+        "SC-CHOWN-PATHS",
+        "SC-CHOWN-PATH"
+    ],
+    "weechat-matrix:3:2": [
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "weechat-matrix:3:3": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ]
+}

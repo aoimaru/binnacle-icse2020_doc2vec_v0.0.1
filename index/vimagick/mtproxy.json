@@ -1,0 +1,72 @@
+{
+    "mtproxy:2:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "mtproxy:2:1": [
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:BUILD-ESSENTIAL",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:CURL",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:GIT",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:LIBSSL-DEV",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:ZLIB1G-DEV"
+    ],
+    "mtproxy:2:2": [
+        "SC-GIT-CLONE",
+        "SC-GIT-DEPTH",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-PATH"
+    ],
+    "mtproxy:2:3": [
+        "SC-CP",
+        "SC-CP-PATHS",
+        "SC-CP-PATH",
+        "ABS-PATH-RELATIVE",
+        "SC-CP",
+        "SC-CP-PATHS",
+        "SC-CP-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CP",
+        "SC-CP-PATHS",
+        "SC-CP-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "mtproxy:2:4": [
+        "SC-APT-REMOVE",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:BUILD-ESSENTIAL",
+        "SC-APT-REMOVE",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:GIT",
+        "SC-APT-REMOVE",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:LIBSSL-DEV",
+        "SC-APT-REMOVE",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:ZLIB1G-DEV"
+    ],
+    "mtproxy:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ]
+}

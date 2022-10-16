@@ -1,0 +1,52 @@
+{
+    "ansible:2:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "ansible:2:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:GCC",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:PYTHON-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBKRB5-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-YES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:PYTHON3-PIP"
+    ],
+    "ansible:2:2": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET",
+        "SC-PIP-INSTALL",
+        "SC-PIP-F-UPGRADE",
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET",
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET",
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ],
+    "ansible:2:3": [
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:KRB5-USER"
+    ],
+    "ansible:2:4": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ],
+    "ansible:2:5": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:IPUTILS-PING"
+    ]
+}

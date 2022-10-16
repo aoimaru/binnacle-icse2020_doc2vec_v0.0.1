@@ -1,0 +1,42 @@
+{
+    "tmail:1:0": [
+        "SC-APK-ADD",
+        "SC-APK-F-UPDATE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON-DEV",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:OPENSSL"
+    ],
+    "tmail:1:1": [
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-PROBABLY-URL",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-URL-PROTOCOL-HTTPS"
+    ],
+    "tmail:1:2": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET"
+    ],
+    "tmail:1:3": [
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:PYTHON-DEV",
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:OPENSSL"
+    ]
+}

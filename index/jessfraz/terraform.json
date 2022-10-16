@@ -1,0 +1,13 @@
+{
+    "terraform:7:0": [
+        "SC-GO-BUILD",
+        "SC-GO-F-A",
+        "SC-GO-BUILD",
+        "SC-GO-TAGS",
+        "SC-GO-BUILD",
+        "SC-GO-LDFLAGS",
+        "ABS-SINGLE-SPACE",
+        "SC-GO-BUILD",
+        "SC-GO-O"
+    ]
+}

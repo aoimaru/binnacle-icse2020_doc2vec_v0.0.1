@@ -1,0 +1,80 @@
+{
+    "its:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "its:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:SIMH"
+    ],
+    "its:2:0": [
+        "ABS-TAB"
+    ],
+    "its:2:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:BUILDDEPS"
+    ],
+    "its:2:2": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-VAR",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-APT-LISTS",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH",
+        "ABS-GLOB-STAR"
+    ],
+    "its:2:3": [
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-PATH-ABSOLUTE",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-USR-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-PATH"
+    ],
+    "its:2:4": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-USR-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-PATH"
+    ]
+}

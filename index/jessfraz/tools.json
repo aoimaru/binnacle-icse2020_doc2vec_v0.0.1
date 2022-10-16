@@ -1,0 +1,15 @@
+{
+    "tools:1:0": [
+        "SC-APT-UPDATE"
+    ],
+    "tools:1:1": [
+        "SC-APT-INSTALL",
+        "SC-APT-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:LIBMNL-DEV"
+    ]
+}

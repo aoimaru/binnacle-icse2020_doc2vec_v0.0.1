@@ -1,0 +1,17 @@
+{
+    "webdis:4:0": [
+        "SC-TAR",
+        "SC-TAR-X",
+        "SC-TAR",
+        "SC-TAR-V",
+        "SC-TAR",
+        "SC-TAR-Z",
+        "SC-TAR",
+        "SC-TAR-FILE",
+        "ABS-EXTENSION-TAR"
+    ],
+    "webdis:4:1": [
+        "SC-CD",
+        "SC-CD-PATH"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "dante:7:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "dante:7:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:DANTE_DEPS"
+    ],
+    "dante:7:2": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-OUTPUT",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "dante:7:3": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "dante:7:4": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ],
+    "dante:7:5": [
+        "SC-APT-GET-PURGE",
+        "SC-APT-GET-F-AUTO-REMOVE",
+        "SC-APT-GET-PURGE",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:DANTE_DEPS"
+    ]
+}

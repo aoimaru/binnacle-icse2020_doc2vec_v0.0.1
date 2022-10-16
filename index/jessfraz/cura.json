@@ -1,0 +1,45 @@
+{
+    "cura:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "cura:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CA-CERTIFICATES",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBGFORTRAN4",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBSSL-DEV",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ],
+    "cura:2:0": [
+        "SC-WGET",
+        "SC-WGET-OUTPUT-DOCUMENT",
+        "ABS-PATH-ABSOLUTE",
+        "SC-WGET",
+        "SC-WGET-OUTPUT-DOCUMENT",
+        "ABS-MAYBE-PATH",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-WGET",
+        "SC-WGET-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "cura:2:1": [
+        "SC-DPKG",
+        "SC-DPKG-INSTALLS",
+        "SC-DPKG-INSTALL",
+        "ABS-MAYBE-PATH"
+    ],
+    "cura:2:2": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-FIX-BROKEN"
+    ]
+}

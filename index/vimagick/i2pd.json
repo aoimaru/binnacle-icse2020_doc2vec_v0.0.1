@@ -1,0 +1,48 @@
+{
+    "i2pd:5:0": [
+        "SC-SET",
+        "SC-SET-F-E",
+        "SC-SET",
+        "SC-SET-F-X"
+    ],
+    "i2pd:5:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ],
+    "i2pd:5:2": [
+        "SC-WGET",
+        "SC-WGET-URL"
+    ],
+    "i2pd:5:3": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-YES"
+    ],
+    "i2pd:5:4": [
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-PATH-ABSOLUTE",
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-MAYBE-PATH",
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-SINGLE-SPACE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "ABS-PATH-ABSOLUTE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "SC-SED-PATH",
+        "ABS-MAYBE-PATH"
+    ],
+    "i2pd:5:5": [
+        "SC-APT-GET-REMOVE",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:WGET"
+    ]
+}

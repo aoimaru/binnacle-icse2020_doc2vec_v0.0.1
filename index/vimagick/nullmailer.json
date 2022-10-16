@@ -1,0 +1,117 @@
+{
+    "nullmailer:3:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "nullmailer:3:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:AUTOCONF",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:AUTOMAKE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GNUTLS",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GNUTLS-DEV",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE",
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ],
+    "nullmailer:3:2": [
+        "SC-ADD-USER",
+        "SC-ADD-USER-F-DEFAULTS",
+        "SC-ADD-USER",
+        "SC-ADD-USER-USER"
+    ],
+    "nullmailer:3:3": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "nullmailer:3:4": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG"
+    ],
+    "nullmailer:3:5": [
+        "SC-MV",
+        "SC-MV-PATHS",
+        "SC-MV-PATH"
+    ],
+    "nullmailer:3:6": [
+        "SC-CHMOD",
+        "SC-CHMOD-MODE",
+        "SC-CHMOD",
+        "SC-CHMOD-PATHS",
+        "SC-CHMOD-PATH",
+        "ABS-PROBABLY-URL"
+    ],
+    "nullmailer:3:7": [
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-PREFIX",
+        "ABS-MAYBE-PATH",
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-SYSCONFDIR",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-SYSCONFDIR",
+        "ABS-MAYBE-PATH",
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-LOCALSTATEDIR",
+        "ABS-PATH-VAR",
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-LOCALSTATEDIR",
+        "ABS-PATH-ABSOLUTE",
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-LOCALSTATEDIR",
+        "ABS-MAYBE-PATH",
+        "SC-CONFIGURE",
+        "SC-CONFIGURE-ENABLE-TLS"
+    ],
+    "nullmailer:3:8": [
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG"
+    ],
+    "nullmailer:3:9": [
+        "SC-RM",
+        "SC-RM-F-FORCE",
+        "SC-RM",
+        "SC-RM-PATHS",
+        "SC-RM-PATH"
+    ],
+    "nullmailer:3:10": [
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:AUTOMAKE",
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:BUILD-BASE",
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:CURL",
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:GNUTLS-DEV",
+        "SC-APK-DEL",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:TAR"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "virt-viewer:1:0": [
+        "SC-APT-GET-UPDATE"
+    ],
+    "virt-viewer:1:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-NO-INSTALL-RECOMMENDS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBGL1-MESA-DRI",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBGL1-MESA-GLX",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:VIRT-VIEWER"
+    ]
+}

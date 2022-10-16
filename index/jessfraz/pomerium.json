@@ -1,0 +1,19 @@
+{
+    "pomerium:5:0": [
+        "SC-GO-GET",
+        "SC-GO-PACKAGES",
+        "SC-GO-PACKAGE",
+        "ABS-PROBABLY-URL"
+    ],
+    "pomerium:5:1": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-MAYBE-PATH",
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-PROBABLY-URL"
+    ]
+}

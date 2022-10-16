@@ -1,0 +1,47 @@
+{
+    "runc-rootless:3:0": [
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-URL-PROTOCOL-HTTPS",
+        "SC-GIT-CLONE",
+        "SC-GIT-URL",
+        "ABS-PROBABLY-URL",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-MAYBE-SRC-DIR",
+        "SC-GIT-CLONE",
+        "SC-GIT-DIRECTORY",
+        "ABS-PROBABLY-URL"
+    ],
+    "runc-rootless:3:1": [
+        "SC-CD",
+        "SC-CD-PATH",
+        "ABS-PROBABLY-URL"
+    ],
+    "runc-rootless:3:2": [
+        "SC-GIT-CHECKOUT",
+        "SC-GIT-TARGET"
+    ],
+    "runc-rootless:3:3": [
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG",
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG",
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG",
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG",
+        "ABS-SINGLE-SPACE",
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG",
+        "SC-MAKE",
+        "SC-MAKE-ARGS",
+        "SC-MAKE-ARG",
+        "ABS-SINGLE-SPACE"
+    ]
+}

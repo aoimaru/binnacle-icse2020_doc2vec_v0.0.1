@@ -1,0 +1,22 @@
+{
+    "registry-cli:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "registry-cli:4:1": [
+        "SC-APT-INSTALL",
+        "SC-APT-PACKAGES",
+        "SC-APT-PACKAGE:BINUTILS"
+    ],
+    "registry-cli:4:2": [
+        "SC-PIP-INSTALL",
+        "SC-PIP-TARGETS",
+        "SC-PIP-TARGET",
+        "SC-PIP-INSTALL",
+        "SC-PIP-F-NO-CACHE-DIR",
+        "SC-PIP-INSTALL",
+        "SC-PIP-REQUIREMENTS"
+    ]
+}

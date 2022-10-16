@@ -1,0 +1,87 @@
+{
+    "motion-arm:4:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "motion-arm:4:1": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:CURL",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:GNUPG",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:MOSQUITTO-CLIENTS",
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:OPENSSH-CLIENT"
+    ],
+    "motion-arm:4:2": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-SINGLE-SPACE",
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-PROBABLY-URL"
+    ],
+    "motion-arm:4:3": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-URL-PROTOCOL-HTTP",
+        "SC-CURL",
+        "SC-CURL-URL",
+        "ABS-PROBABLY-URL"
+    ],
+    "motion-arm:4:4": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-PACKAGES",
+        "SC-APT-GET-PACKAGE:LIBRASPBERRYPI0"
+    ],
+    "motion-arm:4:5": [
+        "SC-CURL",
+        "SC-CURL-F-SHOW-ERROR",
+        "SC-CURL",
+        "SC-CURL-F-LOCATION",
+        "SC-CURL",
+        "SC-CURL-OUTPUT",
+        "SC-CURL",
+        "SC-CURL-URL"
+    ],
+    "motion-arm:4:6": [
+        "SC-APT-GET-INSTALL",
+        "SC-APT-GET-F-YES"
+    ],
+    "motion-arm:4:7": [
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-SINGLE-SPACE",
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-SINGLE-SPACE",
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-SINGLE-SPACE",
+        "SC-SED",
+        "SC-SED-EXPRESSIONS",
+        "SC-SED-EXPRESSION",
+        "ABS-SINGLE-SPACE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "ABS-PATH-ABSOLUTE",
+        "SC-SED",
+        "SC-SED-PATHS",
+        "ABS-MAYBE-PATH"
+    ]
+}

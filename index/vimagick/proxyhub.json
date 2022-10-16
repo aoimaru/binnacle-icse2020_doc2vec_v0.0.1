@@ -1,0 +1,30 @@
+{
+    "proxyhub:18:0": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "ABS-EXTENSION-TAR"
+    ],
+    "proxyhub:19:0": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-PATH-ABSOLUTE",
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM",
+        "ABS-MAYBE-PATH"
+    ],
+    "proxyhub:20:0": [
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "SC-TAR",
+        "SC-TAR-ARGS",
+        "SC-TAR-ARG",
+        "ABS-EXTENSION-TAR"
+    ]
+}

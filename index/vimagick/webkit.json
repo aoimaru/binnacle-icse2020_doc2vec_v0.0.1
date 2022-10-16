@@ -1,0 +1,10 @@
+{
+    "webkit:1:0": [
+        "SC-ECHO",
+        "SC-ECHO-ITEMS",
+        "SC-ECHO-ITEM"
+    ],
+    "webkit:3:0": [
+        "SC-APT-GET-UPDATE"
+    ]
+}

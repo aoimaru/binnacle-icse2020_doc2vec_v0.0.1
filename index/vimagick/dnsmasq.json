@@ -1,0 +1,13 @@
+{
+    "dnsmasq:1:0": [
+        "SC-SET",
+        "SC-SET-F-X",
+        "SC-SET",
+        "SC-SET-F-E"
+    ],
+    "dnsmasq:1:1": [
+        "SC-APK-ADD",
+        "SC-APK-PACKAGES",
+        "SC-APK-PACKAGE:DNSMASQ-DNSSEC"
+    ]
+}
