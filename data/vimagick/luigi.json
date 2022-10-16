@@ -1,0 +1,296 @@
+[
+    {
+        "type": "DOCKER-FROM",
+        "children": [
+            {
+                "type": "DOCKER-IMAGE-NAME:alpine",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ENV",
+        "children": [
+            {
+                "type": "DOCKER-NAME:LUIGI_HOME_DIR",
+                "children": []
+            },
+            {
+                "type": "DOCKER-LITERAL",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ENV",
+        "children": [
+            {
+                "type": "DOCKER-NAME:LUIGI_CONFIG_PATH",
+                "children": []
+            },
+            {
+                "type": "DOCKER-LITERAL",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ENV",
+        "children": [
+            {
+                "type": "DOCKER-NAME:LUIGI_LOG_DIR",
+                "children": []
+            },
+            {
+                "type": "DOCKER-LITERAL",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ENV",
+        "children": [
+            {
+                "type": "DOCKER-NAME:LUIGI_STATE_PATH",
+                "children": []
+            },
+            {
+                "type": "DOCKER-LITERAL",
+                "children": [
+                    {
+                        "type": "ABS-PATH-VAR",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-WORKDIR",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-RUN",
+        "children": [
+            {
+                "type": "BASH-SCRIPT",
+                "children": [
+                    {
+                        "type": "BASH-AND-IF",
+                        "children": [
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-SET",
+                                        "children": [
+                                            {
+                                                "type": "SC-SET-F-X",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-SET-F-E",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-APK-ADD",
+                                        "children": [
+                                            {
+                                                "type": "SC-APK-F-NO-CACHE",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-APK-PACKAGES",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:PYTHON3",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-PIP-INSTALL",
+                                        "children": [
+                                            {
+                                                "type": "SC-PIP-F-NO-CACHE-DIR",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-PIP-TARGETS",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-MKDIR",
+                                        "children": [
+                                            {
+                                                "type": "SC-MKDIR-F-PARENTS",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-MKDIR-PATHS",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-MKDIR-PATH",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-MKDIR-PATH",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-MKDIR-PATH",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-MKDIR-PATH",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "UNKNOWN",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-VOLUME",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-EXPOSE",
+        "children": [
+            {
+                "type": "DOCKER-PORT:8082",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-CMD",
+        "children": [
+            {
+                "type": "DOCKER-CMD-ARG",
+                "children": [
+                    {
+                        "type": "ABS-DOUBLE-SPACE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-SINGLE-SPACE",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "type": "DOCKER-FROM",
+        "children": [
+            {
+                "type": "DOCKER-IMAGE-NAME:alpine-arm",
+                "children": []
+            },
+            {
+                "type": "DOCKER-IMAGE-REPO:easypi",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-RUN",
+        "children": [
+            {
+                "type": "BASH-SCRIPT",
+                "children": [
+                    {
+                        "type": "SC-APK-ADD",
+                        "children": [
+                            {
+                                "type": "SC-APK-F-NO-CACHE",
+                                "children": []
+                            },
+                            {
+                                "type": "SC-APK-PACKAGES",
+                                "children": [
+                                    {
+                                        "type": "SC-APK-PACKAGE:CA-CERTIFICATES",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "SC-APK-PACKAGE:OPENSSH-CLIENT",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ADD",
+        "children": [
+            {
+                "type": "DOCKER-ADD-TARGET",
+                "children": [
+                    {
+                        "type": "DOCKER-PATH",
+                        "children": [
+                            {
+                                "type": "ABS-PATH-ABSOLUTE",
+                                "children": []
+                            },
+                            {
+                                "type": "ABS-MAYBE-PATH",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "DOCKER-ADD-SOURCE",
+                "children": [
+                    {
+                        "type": "DOCKER-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ENTRYPOINT",
+        "children": [
+            {
+                "type": "DOCKER-ENTRYPOINT-EXECUTABLE",
+                "children": []
+            }
+        ]
+    }
+]

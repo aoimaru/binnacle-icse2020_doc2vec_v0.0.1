@@ -1,0 +1,79 @@
+[
+    {
+        "type": "DOCKER-FROM",
+        "children": [
+            {
+                "type": "DOCKER-IMAGE-NAME:alpine",
+                "children": []
+            },
+            {
+                "type": "DOCKER-IMAGE-TAG:3",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-RUN",
+        "children": [
+            {
+                "type": "BASH-SCRIPT",
+                "children": [
+                    {
+                        "type": "SC-APK-ADD",
+                        "children": [
+                            {
+                                "type": "SC-APK-F-NO-CACHE",
+                                "children": []
+                            },
+                            {
+                                "type": "SC-APK-PACKAGES",
+                                "children": [
+                                    {
+                                        "type": "SC-APK-PACKAGE:FFMPEG",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-WORKDIR",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ENTRYPOINT",
+        "children": [
+            {
+                "type": "DOCKER-ENTRYPOINT-EXECUTABLE",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-CMD",
+        "children": [
+            {
+                "type": "DOCKER-CMD-ARG",
+                "children": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-NAME:python"
+            },
+            {
+                "children": [],
+                "type": "DOCKER-IMAGE-TAG:3-alpine"
+            }
+        ],
+        "type": "DOCKER-FROM"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "type": "SC-APK-F-NO-CACHE"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "type": "SC-APK-PACKAGE:BASH"
+                                    }
+                                ],
+                                "type": "SC-APK-PACKAGES"
+                            }
+                        ],
+                        "type": "SC-APK-ADD"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "SC-SET-F-X"
+                                            }
+                                        ],
+                                        "type": "SC-SET"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "SC-APK-F-NO-CACHE"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "SC-APK-VIRTUAL:.build-deps"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "type": "SC-APK-PACKAGE:BUILD-BASE"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "type": "SC-APK-PACKAGE:LIBFFI-DEV"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "type": "SC-APK-PACKAGE:OPENSSL-DEV"
+                                                    }
+                                                ],
+                                                "type": "SC-APK-PACKAGES"
+                                            }
+                                        ],
+                                        "type": "SC-APK-ADD"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "type": "SC-PIP-F-UPGRADE"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "SC-PIP-F-PRE"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-URL-PROTOCOL-HTTPS",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-PROBABLY-URL",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "SC-PIP-EXTRA-INDEX-URL"
+                                                    }
+                                                ],
+                                                "type": "SC-PIP-EXTRA-INDEX-URLS"
+                                            },
+                                            {
+                                                "children": [],
+                                                "type": "SC-PIP-F-NO-CACHE-DIR"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [],
+                                                                "type": "BASH-LITERAL"
+                                                            }
+                                                        ],
+                                                        "type": "SC-PIP-TARGET"
+                                                    }
+                                                ],
+                                                "type": "SC-PIP-TARGETS"
+                                            }
+                                        ],
+                                        "type": "SC-PIP-INSTALL"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "type": "SC-APK-VIRTUAL:.build-deps"
+                                                    }
+                                                ],
+                                                "type": "SC-APK-PACKAGES"
+                                            }
+                                        ],
+                                        "type": "SC-APK-DEL"
+                                    }
+                                ],
+                                "type": "BASH-AND-MEM"
+                            }
+                        ],
+                        "type": "BASH-AND-IF"
+                    }
+                ],
+                "type": "BASH-SCRIPT"
+            }
+        ],
+        "type": "DOCKER-RUN"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "DOCKER-ENTRYPOINT-EXECUTABLE"
+            }
+        ],
+        "type": "DOCKER-ENTRYPOINT"
+    }
+]

@@ -1,0 +1,279 @@
+[
+    {
+        "type": "DOCKER-FROM",
+        "children": [
+            {
+                "type": "DOCKER-IMAGE-NAME:alpine",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-RUN",
+        "children": [
+            {
+                "type": "BASH-SCRIPT",
+                "children": [
+                    {
+                        "type": "BASH-AND-IF",
+                        "children": [
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-SET",
+                                        "children": [
+                                            {
+                                                "type": "SC-SET-F-X",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-SET-F-E",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-APK-ADD",
+                                        "children": [
+                                            {
+                                                "type": "SC-APK-F-NO-CACHE",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-APK-PACKAGES",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:MINIDLNA",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-MKDIR",
+                                        "children": [
+                                            {
+                                                "type": "SC-MKDIR-F-PARENTS",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-MKDIR-PATHS",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-MKDIR-PATH",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-MAYBE-PATH",
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-MV",
+                                        "children": [
+                                            {
+                                                "type": "SC-MV-PATHS",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-MV-PATH",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-MAYBE-PATH",
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-MV-PATH",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-PATH-ABSOLUTE",
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "type": "ABS-MAYBE-PATH",
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-VOLUME",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-VOLUME",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": [
+                    {
+                        "type": "ABS-PATH-VAR",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-VOLUME",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-WORKDIR",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-EXPOSE",
+        "children": [
+            {
+                "type": "DOCKER-PORT:1900/udp",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-EXPOSE",
+        "children": [
+            {
+                "type": "DOCKER-PORT:8200/tcp",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-CMD",
+        "children": [
+            {
+                "type": "DOCKER-CMD-ARG",
+                "children": []
+            },
+            {
+                "type": "DOCKER-CMD-ARG",
+                "children": []
+            },
+            {
+                "type": "DOCKER-CMD-ARG",
+                "children": []
+            },
+            {
+                "type": "DOCKER-CMD-ARG",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

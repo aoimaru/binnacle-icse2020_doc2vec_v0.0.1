@@ -1,0 +1,423 @@
+[
+    {
+        "type": "DOCKER-FROM",
+        "children": [
+            {
+                "type": "DOCKER-IMAGE-NAME:alpine",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-RUN",
+        "children": [
+            {
+                "type": "BASH-SCRIPT",
+                "children": [
+                    {
+                        "type": "BASH-AND-IF",
+                        "children": [
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-SET",
+                                        "children": [
+                                            {
+                                                "type": "SC-SET-F-X",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-SET-F-E",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-APK-ADD",
+                                        "children": [
+                                            {
+                                                "type": "SC-APK-F-NO-CACHE",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-APK-PACKAGES",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:CA-CERTIFICATES",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:BUILD-BASE",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:GIT",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:LIBFFI-DEV",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:OPENSSL",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:OPENSSL-DEV",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:PYTHON3",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:PYTHON3-DEV",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-PIP-INSTALL",
+                                        "children": [
+                                            {
+                                                "type": "SC-PIP-F-NO-CACHE-DIR",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-PIP-F-UPGRADE",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-PIP-TARGETS",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-PIP-INSTALL",
+                                        "children": [
+                                            {
+                                                "type": "SC-PIP-F-NO-CACHE-DIR",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-PIP-TARGETS",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "SC-PIP-TARGET",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-ADD-USER",
+                                        "children": [
+                                            {
+                                                "type": "SC-ADD-USER-SHELL",
+                                                "children": [
+                                                    {
+                                                        "type": "BASH-LITERAL",
+                                                        "children": [
+                                                            {
+                                                                "type": "ABS-PATH-ABSOLUTE",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "ABS-MAYBE-PATH",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "SC-ADD-USER-F-DEFAULTS",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-ADD-USER-USER",
+                                                "children": [
+                                                    {
+                                                        "type": "BASH-LITERAL",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-APK-DEL",
+                                        "children": [
+                                            {
+                                                "type": "SC-APK-F-PURGE",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-APK-PACKAGES",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:BUILD-BASE",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:LIBFFI-DEV",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:OPENSSL-DEV",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "SC-APK-PACKAGE:PYTHON3-DEV",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-USER",
+        "children": [
+            {
+                "type": "DOCKER-LITERAL",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-WORKDIR",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-RUN",
+        "children": [
+            {
+                "type": "BASH-SCRIPT",
+                "children": [
+                    {
+                        "type": "BASH-AND-IF",
+                        "children": [
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-SET",
+                                        "children": [
+                                            {
+                                                "type": "SC-SET-F-X",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-SET-F-E",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "SC-MKDIR",
+                                        "children": [
+                                            {
+                                                "type": "SC-MKDIR-F-PARENTS",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "SC-MKDIR-PATHS",
+                                                "children": [
+                                                    {
+                                                        "type": "SC-MKDIR-PATH",
+                                                        "children": [
+                                                            {
+                                                                "type": "BASH-LITERAL",
+                                                                "children": [
+                                                                    {
+                                                                        "type": "ABS-PATH-HOME",
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "BASH-AND-MEM",
+                                "children": [
+                                    {
+                                        "type": "UNKNOWN",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-VOLUME",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ENTRYPOINT",
+        "children": [
+            {
+                "type": "DOCKER-ENTRYPOINT-EXECUTABLE",
+                "children": []
+            }
+        ]
+    }
+]

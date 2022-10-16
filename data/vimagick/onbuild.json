@@ -1,0 +1,19 @@
+[
+    {
+        "type": "DOCKER-FROM",
+        "children": [
+            {
+                "type": "DOCKER-IMAGE-NAME:scrapyd",
+                "children": []
+            },
+            {
+                "type": "DOCKER-IMAGE-REPO:vimagick",
+                "children": []
+            },
+            {
+                "type": "DOCKER-IMAGE-TAG:py3",
+                "children": []
+            }
+        ]
+    }
+]

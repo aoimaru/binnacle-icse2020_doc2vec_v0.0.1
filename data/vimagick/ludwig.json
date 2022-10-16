@@ -1,0 +1,88 @@
+[
+    {
+        "type": "DOCKER-FROM",
+        "children": [
+            {
+                "type": "DOCKER-IMAGE-NAME:tensorflow",
+                "children": []
+            },
+            {
+                "type": "DOCKER-IMAGE-REPO:tensorflow",
+                "children": []
+            },
+            {
+                "type": "DOCKER-IMAGE-TAG:latest-py3",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-RUN",
+        "children": [
+            {
+                "type": "BASH-SCRIPT",
+                "children": [
+                    {
+                        "type": "SC-PIP-INSTALL",
+                        "children": [
+                            {
+                                "type": "SC-PIP-F-NO-CACHE-DIR",
+                                "children": []
+                            },
+                            {
+                                "type": "SC-PIP-TARGETS",
+                                "children": [
+                                    {
+                                        "type": "SC-PIP-TARGET",
+                                        "children": [
+                                            {
+                                                "type": "BASH-CONCAT",
+                                                "children": [
+                                                    {
+                                                        "type": "BASH-LITERAL",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "BASH-GLOB",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-WORKDIR",
+        "children": [
+            {
+                "type": "DOCKER-PATH",
+                "children": [
+                    {
+                        "type": "ABS-PATH-ABSOLUTE",
+                        "children": []
+                    },
+                    {
+                        "type": "ABS-MAYBE-PATH",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "DOCKER-ENTRYPOINT",
+        "children": [
+            {
+                "type": "DOCKER-ENTRYPOINT-EXECUTABLE",
+                "children": []
+            }
+        ]
+    }
+]
