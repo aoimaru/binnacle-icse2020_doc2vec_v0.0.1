@@ -160,8 +160,8 @@ cython_debug/
 #.idea/
 
 # patch
-data/gold/*.json
-data/github/*.json
+data/gold/
+data/github/
 
 index/github.json
 index/gold/*.json
