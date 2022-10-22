@@ -100,7 +100,7 @@ def main(args):
         model_name="{}.model".format(args[OPTION_01])
     )
     # check_model(model_path, args[OPTION_01], "f39b64a71b6a95e1347fa05cbec2e56e6073cdeb:3:0")
-    # check_model(model_path, args[OPTION_01], "636b8940f290f0557d21f498a240cbb2fc89d5a4:8:3")
+    check_model(model_path, args[OPTION_01], "636b8940f290f0557d21f498a240cbb2fc89d5a4:8:3")
     # check_model_v2(model_path, "636b8940f290f0557d21f498a240cbb2fc89d5a4:8:3")
     # check_model_v2(model_path, "281ec5c0177461d29279dd471dd82e7c5dbd526a:1:1")
 
@@ -137,10 +137,10 @@ def main(args):
     # create_trace_model(args[OPTION_01])
     # create_index(args[OPTION_01])
 
-    trace_model_path="{model_root_path}/{model_name}".format(
-        model_root_path=MODEL_ROOT_PATH,
-        model_name="trace-{}.model".format(args[OPTION_01])
-    )
+    # trace_model_path="{model_root_path}/{model_name}".format(
+    #     model_root_path=MODEL_ROOT_PATH,
+    #     model_name="trace-{}.model".format(args[OPTION_01])
+    # )
 
 
     # compare_v1(
@@ -164,15 +164,17 @@ def main(args):
     # )
 
 
-    check_model(trace_model_path, args[OPTION_01], "a62087e4b0d69dd5fe7e9a825f2c66e555d882d3:3:1")
-    print()
-    check_model(trace_model_path, args[OPTION_01], "ca4acdafd2a1886c6fe0440e939eded376856338:2:0")
-    print()
-    check_model(trace_model_path, args[OPTION_01], "d81fcee655ef5116135f0e27bc8adaaa1f51e8a4:2:1")
-    print()
-    check_model(trace_model_path, args[OPTION_01], "1d8c362e7043d7b78836f06256d0ae9b82561af8:6:2")
-    print()
-    check_model(trace_model_path, args[OPTION_01], "7f16f600731d99679160e3c62322a49134218feb:6:2")
+    # check_model(trace_model_path, args[OPTION_01], "a62087e4b0d69dd5fe7e9a825f2c66e555d882d3:3:1")
+    # print()
+    # check_model(trace_model_path, args[OPTION_01], "ca4acdafd2a1886c6fe0440e939eded376856338:2:0")
+    # print()
+    # check_model(trace_model_path, args[OPTION_01], "d81fcee655ef5116135f0e27bc8adaaa1f51e8a4:2:1")
+    # print()
+    # check_model(trace_model_path, args[OPTION_01], "1d8c362e7043d7b78836f06256d0ae9b82561af8:6:2")
+    # print()
+    # check_model(trace_model_path, args[OPTION_01], "7f16f600731d99679160e3c62322a49134218feb:6:2")
+
+
     # check_model(trace_model_path, args[OPTION_01], "afterthedeadline:4:0")
     # print()
     # check_model(trace_model_path, args[OPTION_01], "install:4:1")
