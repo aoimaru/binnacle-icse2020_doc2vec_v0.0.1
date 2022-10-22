@@ -8,6 +8,11 @@ class Calc(metaclass=ABCMeta):
     @abstractmethod
     def _do():
         pass
+    
+    @staticmethod
+    @abstractmethod
+    def _do_v2():
+        pass
 
 
 class Recursive(Calc):
@@ -31,3 +36,24 @@ class Recursive(Calc):
         rec(obj, have=list())
 
         return sequence
+    
+    @staticmethod
+    def _do_v2(obj):
+        def rec(now):
+            if now["children"]:
+                # now: D
+                nxts = list()
+                for nxt in now["children"]:
+                    # nxt: C, E
+                    tokens = rec(now)
+                    # Cの場合: tokens: [[A, C], [B, C],,,]
+                    for token in tokens:
+                        token.insert(0, now["type"])
+                        nxts.append(token)
+                    # [[A, C, D], [B, C, D],,,]
+                return nxts
+            else:
+                return [
+                    [now["type"]]
+                ]
+        return rec(obj)
