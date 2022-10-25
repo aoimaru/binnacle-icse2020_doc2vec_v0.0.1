@@ -127,6 +127,40 @@ class RUNContent(Content):
                     base_dict[sequence_id] = df_token
         return sequence_dict, base_dict
 
+    @staticmethod
+    def _get_sequence_v3_cleaning(file_path):
+        base_name = os.path.basename(file_path)
+        base_name = base_name.replace(".json", "")
+        sequence_dict = dict()
+        base_dict = dict()
+        df_contents = JsonFile._get_contents(file_path)
+        for df_id, df_content in enumerate(df_contents):
+            if df_content["type"] != "DOCKER-RUN":
+                continue
+            for bash_id, df_tokens in enumerate(df_content["children"]):
+                if df_tokens["type"] != "BASH-SCRIPT":
+                    continue
+                for run_id, df_token in enumerate(df_tokens["children"]):
+                    output_branches = Recursive._do_v3_v3(df_token)
+                    if not output_branches:
+                        continue
+                    init_output_branch = output_branches.pop(0)
+                    ast_path = init_output_branch["output_branch_00"]+init_output_branch["output_branch_02"][1:-1]+init_output_branch["output_branch_01"][::-1]
+                    for output_branch in output_branches:
+                        # print()
+                        print("output_branch_00", output_branch["output_branch_00"])
+                        print("output_branch_01", output_branch["output_branch_01"])
+                        print("output_branch_02", output_branch["output_branch_02"])
+                        output_branch_03 = output_branch["output_branch_00"]+output_branch["output_branch_02"][1:-1]+output_branch["output_branch_01"][::-1]
+                        # print("output_branch_03", output_branch_03)
+                        ast_path.extend(output_branch_03[1:])
+
+                    sequence_id = "{}:{}:{}:{}".format(base_name, df_id, bash_id, run_id)
+                    sequence_dict[sequence_id] = ast_path
+                    ast_path = CleanRUN._do(ast_path)
+                    base_dict[sequence_id] = df_token
+        return sequence_dict, base_dict
+
 
 
 

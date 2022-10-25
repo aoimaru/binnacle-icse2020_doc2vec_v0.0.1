@@ -49,7 +49,8 @@ def create_ast_model(target):
     print("len(documents):", len(documents))
     D2V_V1._do(documents, model_path="{model_root_path}/{model_name}".format(
         model_root_path=MODEL_ROOT_PATH,
-        model_name="ast-{}.model".format(target)
+        # model_name="ast-{}.model".format(target)
+        model_name="ast-clean-gold.model".format(target)
     ))
 
 
@@ -108,34 +109,36 @@ def _10_25(target):
     file_paths = JsonFile._get_file_path(target=target)
     training_data, base_dicts =  TR_V1._get_training_data_no_cleaning(file_paths)
 
+    pprint.pprint(training_data)
+
     files = dict()
-    # for seq_id, seq in training_data.items():
-    #     file_id = seq_id.split(":")[0]
-    #     if not file_id in files:
-    #         files[file_id] = list()
-    #     files[file_id].append(seq_id)
+    for seq_id, seq in training_data.items():
+        file_id = seq_id.split(":")[0]
+        if not file_id in files:
+            files[file_id] = list()
+        files[file_id].append(seq_id)
     
-    # for file_id, objs in files.items():
-    #     JsonFile._create_new_index_02_path(
-    #         target=target,
-    #         file_id=file_id,
-    #         objs=objs
-    #     )
-    # for seq_id, seq in training_data.items():
-    #     file_id = seq_id.split(":")[0]
-    #     if not file_id in files:
-    #         files[file_id] = list()
-    #     files[file_id].append({
-    #         "file_id": seq_id,
-    #         "contents": seq
-    #     })
+    for file_id, objs in files.items():
+        JsonFile._create_new_index_02_path(
+            target="ast-clean-gold",
+            file_id=file_id,
+            objs=objs
+        )
+    for seq_id, seq in training_data.items():
+        file_id = seq_id.split(":")[0]
+        if not file_id in files:
+            files[file_id] = list()
+        files[file_id].append({
+            "file_id": seq_id,
+            "contents": seq
+        })
     
-    # for file_id, file_content in files.items():
-    #     JsonFile._create_new_index_01_path(
-    #         target=target,
-    #         file_id=file_id,
-    #         objs=file_content
-    #     )
+    for file_id, file_content in files.items():
+        JsonFile._create_new_index_01_path(
+            target="ast-clean-gold",
+            file_id=file_id,
+            objs=file_content
+        )
 
 
 def checks(model_path, target, file_id):
