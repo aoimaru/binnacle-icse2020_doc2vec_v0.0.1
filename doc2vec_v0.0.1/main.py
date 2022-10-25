@@ -94,10 +94,39 @@ def compare_v1(model_path, target, file_id_01, file_id_02):
 
 def _10_25(target):
     file_paths = JsonFile._get_file_path(target=target)
-    training_data =  TR_V1._get_training_data_no_cleaning(file_paths)
-    for key, value in training_data.items():
-        print(key)
-        print(value)
+    training_data, base_dicts =  TR_V1._get_training_data_no_cleaning(file_paths)
+
+    files = dict()
+    # for seq_id, seq in training_data.items():
+    #     file_id = seq_id.split(":")[0]
+    #     if not file_id in files:
+    #         files[file_id] = list()
+    #     files[file_id].append(seq_id)
+    
+    # for file_id, objs in files.items():
+    #     JsonFile._create_new_index_02_path(
+    #         target=target,
+    #         file_id=file_id,
+    #         objs=objs
+    #     )
+    for seq_id, seq in training_data.items():
+        file_id = seq_id.split(":")[0]
+        if not file_id in files:
+            files[file_id] = list()
+        files[file_id].append({
+            "file_id": seq_id,
+            "contents": seq
+        })
+    
+    for file_id, file_content in files.items():
+        JsonFile._create_new_index_01_path(
+            target=target,
+            file_id=file_id,
+            objs=file_content
+        )
+
+
+
 
 def main(args):
     # create_model(target=args[OPTION_01])

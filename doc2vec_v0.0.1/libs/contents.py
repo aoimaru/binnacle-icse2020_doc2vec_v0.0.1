@@ -99,6 +99,7 @@ class RUNContent(Content):
         base_name = os.path.basename(file_path)
         base_name = base_name.replace(".json", "")
         sequence_dict = dict()
+        base_dict = dict()
         df_contents = JsonFile._get_contents(file_path)
         for df_id, df_content in enumerate(df_contents):
             if df_content["type"] != "DOCKER-RUN":
@@ -121,11 +122,10 @@ class RUNContent(Content):
                         # print("output_branch_03", output_branch_03)
                         ast_path.extend(output_branch_03[1:])
 
-                    # print()
-                    # print("ast_path:", ast_path)
                     sequence_id = "{}:{}:{}:{}".format(base_name, df_id, bash_id, run_id)
                     sequence_dict[sequence_id] = ast_path
-        return sequence_dict
+                    base_dict[sequence_id] = df_token
+        return sequence_dict, base_dict
 
 
 

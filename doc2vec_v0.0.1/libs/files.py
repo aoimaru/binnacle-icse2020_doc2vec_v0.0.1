@@ -5,6 +5,9 @@ import glob
 
 DATA_ROOT_PATH = "/Users/nakamurahekikai/Desktop/binnacle-icse2020_doc2vec_v0.0.1/data"
 
+NEW_INDEX_01_PATH = "/Users/nakamurahekikai/Desktop/binnacle-icse2020_doc2vec_v0.0.1/new_index_01"
+NEW_INDEX_02_PATH = "/Users/nakamurahekikai/Desktop/binnacle-icse2020_doc2vec_v0.0.1/new_index_02"
+
 class File(metaclass=ABCMeta):
     @staticmethod
     @abstractmethod
@@ -16,6 +19,15 @@ class File(metaclass=ABCMeta):
     def _get_file_path():
         pass
 
+    @staticmethod
+    @abstractmethod
+    def _create_new_index_01_path():
+        pass
+    
+    @staticmethod
+    @abstractmethod
+    def _create_new_index_02_path():
+        pass
 
 class JsonFile(File):
     @staticmethod
@@ -39,3 +51,34 @@ class JsonFile(File):
             recursive=True
         )
     
+    @staticmethod
+    def _create_new_index_01_path(target, file_id, objs):
+        file_path = "{new_index_01}/{target}/{file_id}.json".format(
+            new_index_01=NEW_INDEX_01_PATH,
+            target=target,
+            file_id=file_id
+        )
+        try:
+            with open(file_path, mode="w") as f:
+                json.dump(objs, f, indent=4)
+        except Exception as e:
+            print(e)
+        else:
+            print("status: OK")
+    
+
+    @staticmethod
+    def _create_new_index_02_path(target, file_id, objs):
+        file_path = "{new_index_02}/{target}/{file_id}.json".format(
+            new_index_02=NEW_INDEX_02_PATH,
+            target=target,
+            file_id=file_id
+        )
+        try:
+            with open(file_path, mode="w") as f:
+                json.dump(objs, f, indent=4)
+        except Exception as e:
+            print(e)
+        else:
+            print("status: OK")
+            
