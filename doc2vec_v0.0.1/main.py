@@ -14,6 +14,7 @@ OPTION_01 = 1
 MODEL_ROOT_PATH = "/Users/nakamurahekikai/Desktop/binnacle-icse2020_doc2vec_v0.0.1/model"
 INDEX_ROOT_PATH = "/Users/nakamurahekikai/Desktop/binnacle-icse2020_doc2vec_v0.0.1/index"
 
+NEW_INDEX_01_PATH = "/Users/nakamurahekikai/Desktop/binnacle-icse2020_doc2vec_v0.0.1/new_index_01"
 
 def cos_sim(v1, v2):
     return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
@@ -38,6 +39,17 @@ def create_trace_model(target):
     D2V_V1._do(documents, model_path="{model_root_path}/{model_name}".format(
         model_root_path=MODEL_ROOT_PATH,
         model_name="trace-{}.model".format(target)
+    ))
+
+def create_ast_model(target):
+    file_paths = JsonFile._get_file_path(target=target)
+    ast_training_data, _ =  TR_V1._get_training_data_no_cleaning(file_paths)
+    print("len(ast_training_data):", len(ast_training_data))
+    documents = D2V_V1._get_documents(ast_training_data)
+    print("len(documents):", len(documents))
+    D2V_V1._do(documents, model_path="{model_root_path}/{model_name}".format(
+        model_root_path=MODEL_ROOT_PATH,
+        model_name="ast-{}.model".format(target)
     ))
 
 
@@ -109,34 +121,57 @@ def _10_25(target):
     #         file_id=file_id,
     #         objs=objs
     #     )
-    for seq_id, seq in training_data.items():
-        file_id = seq_id.split(":")[0]
-        if not file_id in files:
-            files[file_id] = list()
-        files[file_id].append({
-            "file_id": seq_id,
-            "contents": seq
-        })
+    # for seq_id, seq in training_data.items():
+    #     file_id = seq_id.split(":")[0]
+    #     if not file_id in files:
+    #         files[file_id] = list()
+    #     files[file_id].append({
+    #         "file_id": seq_id,
+    #         "contents": seq
+    #     })
     
-    for file_id, file_content in files.items():
-        JsonFile._create_new_index_01_path(
-            target=target,
-            file_id=file_id,
-            objs=file_content
-        )
+    # for file_id, file_content in files.items():
+    #     JsonFile._create_new_index_01_path(
+    #         target=target,
+    #         file_id=file_id,
+    #         objs=file_content
+    #     )
 
+
+def checks(model_path, target, file_id):
+    index_path = "{index_root_path}/{target}".format(
+        index_root_path=NEW_INDEX_01_PATH,
+        target=target
+    )
+    target_id = file_id.split(":")[0]; target_path = "{}/{}.json".format(index_path, target_id)
+    print("target_path", target_path)
+    target_contents = Index._get_file(target_path)
+    content = [target_content["contents"] for target_content in target_contents if target_content["file_id"]==file_id]
+    pprint.pprint(content)
+    model = D2V_V1._load_model(model_path)
+    for result in model.docvecs.most_similar(file_id):
+        print(result)
+        file_id = result[0].split(":")[0]; file_path = "{}/{}.json".format(index_path, file_id)
+        result_contents = Index._get_file(file_path=file_path)
+        # pprint.pprint(result_contents[result[0]])
+        content = [result_content["contents"] for result_content in result_contents if result_content["file_id"]==result[0]]
+        pprint.pprint(content)
 
 
 
 def main(args):
     # create_model(target=args[OPTION_01])
-    _10_25(target=args[OPTION_01])
+    # _10_25(target=args[OPTION_01])
     # create_index(args[OPTION_01])
+    # create_ast_model(target=args[OPTION_01])
     model_path="{model_root_path}/{model_name}".format(
         model_root_path=MODEL_ROOT_PATH,
         model_name="{}.model".format(args[OPTION_01])
     )
-    # check_model(model_path, args[OPTION_01], "f39b64a71b6a95e1347fa05cbec2e56e6073cdeb:3:0")
+    # checks(model_path, args[OPTION_01], "0aa1cd6a00cfe247f17e680d5e2c394b5f0d3edc:13:0:3")
+    
+    checks(model_path, args[OPTION_01], "0aa1cd6a00cfe247f17e680d5e2c394b5f0d3edc:13:0:4")
+    
     # check_model(model_path, args[OPTION_01], "636b8940f290f0557d21f498a240cbb2fc89d5a4:8:3")
     # check_model_v2(model_path, "636b8940f290f0557d21f498a240cbb2fc89d5a4:8:3")
     # check_model_v2(model_path, "281ec5c0177461d29279dd471dd82e7c5dbd526a:1:1")
