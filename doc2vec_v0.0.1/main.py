@@ -92,15 +92,23 @@ def compare_v1(model_path, target, file_id_01, file_id_02):
     print(cos_sim(vector_01, vector_02))
 
 
+def _10_25(target):
+    file_paths = JsonFile._get_file_path(target=target)
+    training_data =  TR_V1._get_training_data_no_cleaning(file_paths)
+    for key, value in training_data.items():
+        print(key)
+        print(value)
+
 def main(args):
     # create_model(target=args[OPTION_01])
+    _10_25(target=args[OPTION_01])
     # create_index(args[OPTION_01])
     model_path="{model_root_path}/{model_name}".format(
         model_root_path=MODEL_ROOT_PATH,
         model_name="{}.model".format(args[OPTION_01])
     )
     # check_model(model_path, args[OPTION_01], "f39b64a71b6a95e1347fa05cbec2e56e6073cdeb:3:0")
-    check_model(model_path, args[OPTION_01], "636b8940f290f0557d21f498a240cbb2fc89d5a4:8:3")
+    # check_model(model_path, args[OPTION_01], "636b8940f290f0557d21f498a240cbb2fc89d5a4:8:3")
     # check_model_v2(model_path, "636b8940f290f0557d21f498a240cbb2fc89d5a4:8:3")
     # check_model_v2(model_path, "281ec5c0177461d29279dd471dd82e7c5dbd526a:1:1")
 

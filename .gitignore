@@ -167,4 +167,7 @@ index/github.json
 index/gold/*.json
 index/github/*.json
 
+new_index_01/
+new_index_02/
+
 model/*
